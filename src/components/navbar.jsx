@@ -65,7 +65,7 @@ export default class NavBar extends Component {
           <Col lg={10}>
             <ul className="nav__items">
               <li className="nav__item">
-                <a href="#" className="nav__link">
+                <a href="/" className="nav__link">
                   <span>Homepagina</span>
                 </a>
               </li>
