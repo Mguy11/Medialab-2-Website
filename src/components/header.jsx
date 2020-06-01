@@ -4,7 +4,7 @@ import { Row, Col } from "react-flexbox-grid";
 const Header = () => (
   <section className="section">
     <div className="header">
-      <figure className="header__image-wrapper header__image-wrapper--large"></figure>
+      <div className="header__image-wrapper header__image-wrapper--large"></div>
       <Row center="lg" middle="lg" className="header__row">
         <Col lg={4}>
           <div className-="header__content">

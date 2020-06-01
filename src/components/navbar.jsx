@@ -3,64 +3,9 @@ import { Row, Col } from "react-flexbox-grid";
 import classNames from "classnames";
 
 export default class NavBar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { isToggleOn: false };
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  state = {
-    sticky: window.pageYOffset >= 80,
-  };
-
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleWindowScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleWindowScroll);
-  }
-
-  handleWindowScroll = (event) => {
-    const { sticky } = this.state;
-    const shouldBeSticky = window.pageYOffset >= 10;
-
-    if (sticky && !shouldBeSticky) {
-      this.setState({
-        sticky: false,
-      });
-    }
-
-    if (!sticky && shouldBeSticky) {
-      this.setState({
-        sticky: true,
-      });
-    }
-  };
-
-  showSettings = (event) => {
-    event.preventDefault();
-  };
-
-  handleClick() {
-    this.setState((state) => ({
-      isToggleOn: !state.isToggleOn,
-    }));
-
-    if (!this.state.isToggleOn) {
-      console.log("piep");
-    }
-  }
-
   render() {
-    const cx = classNames({
-      nav: true,
-      "nav--sticky": this.state.sticky,
-    });
-
     return (
-      <div className={cx}>
+      <div className="nav nav--sticky">
         <Row center="lg">
           <Col lg={10}>
             <ul className="nav__items">

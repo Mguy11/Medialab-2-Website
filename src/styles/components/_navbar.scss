@@ -5,15 +5,13 @@
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  background-color: $color-white;
+  background-color: transparent;
   position: fixed;
   align-self: center;
   top: 0;
   width: 100%;
   z-index: 5;
-  color: #fff;
   transition: background-color ease-out;
-  box-shadow: 0 -0.5rem 3rem #000;
 
   ul {
     margin: 0;
