@@ -5,12 +5,14 @@ import "./styles/style.scss";
 
 import Header from "./components/header";
 import NavBar from "./components/navbar";
+import Team from "./components/team";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Header />
+      <Team />
     </div>
   );
 }

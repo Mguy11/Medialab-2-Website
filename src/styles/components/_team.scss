@@ -1,0 +1,11 @@
+.team {
+  background-color: $color-red;
+  &__title {
+    font-size: 6rem;
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -90,6 +90,10 @@
     }
   }
 
+  &__link-text {
+    font-size: 2rem;
+  }
+
   &--sticky {
     background-color: transparent;
     animation: slideInDown 0.4s cubic-bezier(0.11, 0.28, 0.58, 1);

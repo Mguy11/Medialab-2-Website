@@ -11,43 +11,43 @@ export default class NavBar extends Component {
             <ul className="nav__items">
               <li className="nav__item">
                 <a href="/" className="nav__link">
-                  <span>Homepagina</span>
+                  <span className="nav__link-text">Homepagina</span>
                 </a>
               </li>
 
               <li className="nav__item">
                 <a href="#" className="nav__link">
-                  <span>Over ons</span>
+                  <span className="nav__link-text">Over ons</span>
                 </a>
               </li>
 
               <li className="nav__item">
                 <a href="#" className="nav__link">
-                  <span>Concepten</span>
+                  <span className="nav__link-text">Concepten</span>
                 </a>
               </li>
 
               <li className="nav__item">
                 <a href="#" className="nav__link">
-                  <span>Onderzoek</span>
+                  <span className="nav__link-text">Onderzoek</span>
                 </a>
               </li>
 
               <li className="nav__item">
                 <a href="#" className="nav__link">
-                  <span>Ontwerp</span>
+                  <span className="nav__link-text">Ontwerp</span>
                 </a>
               </li>
 
               <li className="nav__item">
                 <a href="#" className="nav__link">
-                  <span>Ontwikkelen</span>
+                  <span className="nav__link-text">Ontwikkelen</span>
                 </a>
               </li>
 
               <li className="nav__item">
                 <a href="#" className="nav__link">
-                  <span>Prototype</span>
+                  <span className="nav__link-text">Prototype</span>
                 </a>
               </li>
             </ul>
