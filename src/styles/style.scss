@@ -2,10 +2,20 @@
 @import "./vars/colors";
 @import "./vars/spacings";
 
-//Components
-@import "./components/header.scss";
+//Webparts
+@import "./webparts/button";
+@import "./webparts/section";
 
-//Sections
+//Components
+@import "./components/navbar.scss";
+@import "./components/header.scss";
+@import "./components/team.scss";
+@import "./components/concepts.scss";
+@import "./components/research.scss";
+@import "./components/design.scss";
+@import "./components/development.scss";
+@import "./components/prototype.scss";
+@import "./components/footer.scss";
 
 //Reset
 @import "./vars/reset";
