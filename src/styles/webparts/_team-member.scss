@@ -4,16 +4,20 @@
   justify-content: center;
   align-items: center;
 
-  &__logo {
-    display: inline;
-    height: 10rem;
-    width: 10rem;
+  img {
+    color: $color-white;
+  }
+
+  &__image {
+    display: flex;
+    height: 25rem;
+    width: 25rem;
     user-select: none;
   }
 
   &__name {
-    font-size: 1.6rem;
-    font-weight: 900;
+    margin: $spacing-medium;
     text-align: center;
+    text-transform: uppercase;
   }
 }

@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .nav {
   $self: &;
 
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   background-color: transparent;
   position: fixed;
@@ -47,7 +47,6 @@
     display: block;
     position: relative;
     text-decoration: none;
-    font-size: 1.6rem;
     color: $color-red;
     transition: color 300ms ease-in-out;
 
@@ -92,6 +91,7 @@
 
   &__link-text {
     font-size: 2rem;
+    font-weight: 500;
   }
 
   &--sticky {
@@ -99,7 +99,7 @@
     animation: slideInDown 0.4s cubic-bezier(0.11, 0.28, 0.58, 1);
     box-shadow: none;
     box-sizing: border-box;
-    border-bottom: 0.2rem solid $color-white;
+    border-bottom: 0.2rem solid rgba(255,255,255, 0.6);
 
     #{$self}__link {
       color: $color-white;

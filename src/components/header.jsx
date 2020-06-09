@@ -7,8 +7,8 @@ const Header = () => (
       <div className="header__image-wrapper header__image-wrapper--large"></div>
       <Row center="lg" middle="lg" className="header__row">
         <Col lg={4}>
-          <div className-="header__content">
-            <h2 className="header__title">Welkom.</h2>
+          <div className="header__content">
+            <h1 className="header__title">Welkom.</h1>
             <span className="header__body">
               Wij zijn team TNMT. Voor ons project zijn we aan de slag gegaan
               met de volgende opdracht:

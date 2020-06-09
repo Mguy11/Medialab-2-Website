@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-flexbox-grid";
-import classNames from "classnames";
 
 export default class NavBar extends Component {
   render() {
