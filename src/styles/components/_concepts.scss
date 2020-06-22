@@ -1,0 +1,19 @@
+.concepts {
+  background-color: $color-red-light;
+  height: 100vh;
+
+  &__content {
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+  &__items {    
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  &__body {
+    
+  }
+}

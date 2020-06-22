@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import "./styles/style.scss";
 
@@ -8,6 +7,7 @@ import NavBar from "./components/navbar";
 import Team from "./components/team";
 import Development from "./components/development";
 import Design from "./components/design";
+import Concepts from "./components/concepts"
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Team />
       <Development />
       <Design />
+      <Concepts />
     </div>
   );
 }
