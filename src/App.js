@@ -7,6 +7,7 @@ import Header from "./components/header";
 import NavBar from "./components/navbar";
 import Team from "./components/team";
 import Development from "./components/development";
+import Design from "./components/design";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Team />
       <Development />
+      <Design />
     </div>
   );
 }
