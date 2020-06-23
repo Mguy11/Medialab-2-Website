@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-flexbox-grid";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default class NavBar extends Component {
   render() {
@@ -9,45 +10,45 @@ export default class NavBar extends Component {
           <Col lg={10}>
             <ul className="nav__items">
               <li className="nav__item">
-                <a href="/" className="nav__link">
+                <AnchorLink href="#intro" className="nav__link">
                   <span className="nav__link-text">Homepagina</span>
-                </a>
+                </AnchorLink>
               </li>
 
               <li className="nav__item">
-                <a href="#" className="nav__link">
+                <AnchorLink href="#team" className="nav__link">
                   <span className="nav__link-text">Over ons</span>
-                </a>
+                </AnchorLink>
               </li>
 
               <li className="nav__item">
-                <a href="#" className="nav__link">
+                <AnchorLink href="#concepts" className="nav__link">
                   <span className="nav__link-text">Concepten</span>
-                </a>
+                </AnchorLink>
               </li>
 
               <li className="nav__item">
-                <a href="#" className="nav__link">
+                <AnchorLink href="#research" className="nav__link">
                   <span className="nav__link-text">Onderzoek</span>
-                </a>
+                </AnchorLink>
               </li>
 
               <li className="nav__item">
-                <a href="#" className="nav__link">
+                <AnchorLink href="#design" className="nav__link">
                   <span className="nav__link-text">Ontwerp</span>
-                </a>
+                </AnchorLink>
               </li>
 
               <li className="nav__item">
-                <a href="#" className="nav__link">
+                <AnchorLink href="#development" className="nav__link">
                   <span className="nav__link-text">Ontwikkelen</span>
-                </a>
+                </AnchorLink>
               </li>
 
               <li className="nav__item">
-                <a href="#" className="nav__link">
+                <AnchorLink href="#prototype" className="nav__link">
                   <span className="nav__link-text">Prototype</span>
-                </a>
+                </AnchorLink>
               </li>
             </ul>
           </Col>

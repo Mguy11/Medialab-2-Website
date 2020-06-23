@@ -9,15 +9,15 @@ import Development from "./components/development";
 import Design from "./components/design";
 import Concepts from "./components/concepts"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <NavBar />
       <Header />
       <Team />
-      <Development />
-      <Design />
       <Concepts />
+      <Design />
+      <Development />
     </div>
   );
 }

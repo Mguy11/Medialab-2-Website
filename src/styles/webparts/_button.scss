@@ -9,4 +9,10 @@
   border: none;
   font-family: "Montserrat", sans-serif;
   width: 100%;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: darken($color-green, 5%);
+  }
 }

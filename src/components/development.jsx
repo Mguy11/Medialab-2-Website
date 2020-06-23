@@ -4,7 +4,7 @@ import Alinea from "../webparts/alinea";
 
 const Development = () => {
   return (
-    <section className="section development">
+    <section id="development" className="section development">
       <Row middle="lg" center="lg" className="development__row">
         <div className="development__stain development__stain--left" alt="blob nine"></div>
         <div className="development__stain development__stain--right" alt="blob seven"></div>
