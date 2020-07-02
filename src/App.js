@@ -9,6 +9,8 @@ import Development from "./components/development";
 import Design from "./components/design";
 import Concepts from "./components/concepts";
 import Reasearch from "./components/research";
+import Prototype from "./components/prototype";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
       <Reasearch />
       <Design />
       <Development />
+      <Prototype />
+      <Footer />
     </div>
   );
 }

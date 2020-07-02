@@ -10,7 +10,7 @@ export default class NavBar extends Component {
           <Col lg={10}>
             <ul className="nav__items">
               <li className="nav__item">
-                <AnchorLink href="#intro" className="nav__link">
+                <AnchorLink href="#home" className="nav__link">
                   <span className="nav__link-text">Homepagina</span>
                 </AnchorLink>
               </li>
@@ -29,7 +29,7 @@ export default class NavBar extends Component {
 
               <li className="nav__item">
                 <AnchorLink href="#research" className="nav__link">
-                  <span className="nav__link-text">Onderzoek</span>
+                  <span className="nav__link-text">Onderzoeken</span>
                 </AnchorLink>
               </li>
 

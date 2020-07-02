@@ -14,8 +14,7 @@ const Team = () => {
               <Col lg={7}>
                 <h2 className="team__title">Ons Team</h2>
                 <p className="team__body">
-                  Lorem ipsum dolor sit amet, consecteteur adipiscing elit, sed diam
-                  nonummy nibh eu-ismod tincidunt ut laoreet.
+                  Wij zijn team TMNT. Dit team bestaat alleen maar uit CMGT studenten dit keer.
                   </p>
               </Col>
             </Row>

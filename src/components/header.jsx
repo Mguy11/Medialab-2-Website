@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-flexbox-grid";
 
 const Header = () => (
-  <section className="section">
+  <section id="home" className="section">
     <div className="header">
       <div className="header__image-wrapper header__image-wrapper--large"></div>
       <Row center="lg" middle="lg" className="header__row">

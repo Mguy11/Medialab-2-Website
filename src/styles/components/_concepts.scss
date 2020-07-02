@@ -37,6 +37,18 @@
       max-width: 99rem;
       transform: scaleX(-1) rotate(180deg);
     }
+
+    &--right {
+      background-image: url("../../images/backgrounds/background-10.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      right: 10rem;
+      bottom: 0rem;
+      max-width: 20rem;
+      max-height: 30rem;
+      transform: scale(2) scaleX(1);
+    }
   }
 
   &__row {

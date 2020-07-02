@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-flexbox-grid";
-import Alinea from "../webparts/alinea";
 
 const Design = () => {
   return (
@@ -35,7 +34,7 @@ const Design = () => {
           </p>
         </Col>
         <Col lgOffset={2} lg={4}>
-          <img src="../images/Undiemeister.jpg" alt="test" className="design__image" />
+          <img src="../images/Mockup.png" alt="test" className="design__image" />
           <div className="design__content">
             <h3 className="design__subtitle">Designs</h3>
             <h4 className="design__body">Versie 1</h4>
