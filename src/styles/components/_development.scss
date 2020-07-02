@@ -36,11 +36,23 @@
   }
 
   &__title {
+    position: relative;
+    margin-top: 4rem;
     margin-bottom: 7rem;
+    z-index: 5;
   }
 
   &__alinea {
+    text-align: left;
     line-height: 3.5rem;
+    position: relative;
+    z-index: 5;
+
+    &--overflow {
+      overflow: overlay;
+      height: 60rem;
+      width: 90rem;
+    }
     
     &--italic{
       font-style: italic;
@@ -55,10 +67,23 @@
     z-index: 5;
   }
 
+  &__col-height {
+    height: 90%;
+  }
+
   &__content {
     text-align: left;
     line-height: 3rem;
     position: relative;
     z-index: 5;
+  }
+  
+  &__link {
+    color: $color-white;
+
+    &:hover {
+      color: darken($color-white, 30%);
+      transition: color 300ms ease-in-out
+    }
   }
 }

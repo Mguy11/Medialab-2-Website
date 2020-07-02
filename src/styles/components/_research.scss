@@ -1,0 +1,27 @@
+.research {
+  background-color: $color-red-light;
+  height: 100vh;
+
+  &__title {
+    margin-bottom: 4rem;
+  }
+
+  &__subtitle {
+    font-style: italic;
+  }
+
+  &__list {
+    text-align: left;
+  }
+
+  &__list-item {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  &__content {
+    margin-bottom: 3rem;
+  }
+
+}

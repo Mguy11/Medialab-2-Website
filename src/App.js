@@ -7,7 +7,8 @@ import NavBar from "./components/navbar";
 import Team from "./components/team";
 import Development from "./components/development";
 import Design from "./components/design";
-import Concepts from "./components/concepts"
+import Concepts from "./components/concepts";
+import Reasearch from "./components/research";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Header />
       <Team />
       <Concepts />
+      <Reasearch />
       <Design />
       <Development />
     </div>

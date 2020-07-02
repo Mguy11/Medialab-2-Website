@@ -35,7 +35,7 @@ export default class NavBar extends Component {
 
               <li className="nav__item">
                 <AnchorLink href="#design" className="nav__link">
-                  <span className="nav__link-text">Ontwerp</span>
+                  <span className="nav__link-text">Ontwerpen</span>
                 </AnchorLink>
               </li>
 

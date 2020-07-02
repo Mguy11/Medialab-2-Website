@@ -13,7 +13,7 @@ const Header = () => (
               Wij zijn team TNMT. Voor ons project zijn we aan de slag gegaan
               met de volgende opdracht:
               <b>
-                "Verbeter de rstaurant ervaring voor blinden/slechtzienden".
+                "Verbeter de restaurant ervaring voor blinden/slechtzienden".
               </b>
             </span>
           </div>
